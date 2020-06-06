@@ -1,0 +1,31 @@
+ADD_CHILD Anga Chit Male
+ADD_CHILD Anga Ish Male
+ADD_CHILD Anga Vich Male
+ADD_CHILD Anga Aras Male
+ADD_CHILD Anga Satya Female
+ADD_SPOUSE Chit Amba Female
+GET_REPO_STATE
+GET_RELATIONSHIP Amba Brother-in-Law
+GET_RELATIONSHIP Amba Sister-in-Law
+GET_RELATIONSHIP Anga Son
+GET_RELATIONSHIP Anga Daughter
+GET_RELATIONSHIP Shan Son
+GET_RELATIONSHIP Shan Daughter
+GET_RELATIONSHIP Ish Siblings
+ADD_CHILD Amba Dritha Female
+ADD_SPOUSE Dritha Jaya Male
+ADD_CHILD Dritha Yodhan Male
+GET_RELATIONSHIP Dritha Maternal-Uncle
+GET_RELATIONSHIP Dritha Maternal-Aunt
+GET_RELATIONSHIP Dritha Paternal-Uncle
+GET_RELATIONSHIP Dritha Paternal-Aunt
+GET_RELATIONSHIP Anga Maternal-Uncle
+GET_RELATIONSHIP Anga Maternal-Aunt
+GET_RELATIONSHIP Anga Paternal-Uncle
+GET_RELATIONSHIP Anga Paternal-Aunt
+GET_RELATIONSHIP Anga Brother-in-Law
+GET_RELATIONSHIP Anga Sister-in-Law
+GET_RELATIONSHIP Anga Siblings
+GET_RELATIONSHIP Yodhan Son
+GET_RELATIONSHIP Yodhan Daughter
+GET_RELATIONSHIP Yodhan Siblings

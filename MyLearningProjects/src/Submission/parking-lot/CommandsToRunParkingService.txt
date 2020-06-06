@@ -1,0 +1,35 @@
+create_parking_lot 6
+
+status
+
+park KA-01-HH-1231 White
+
+park KA-01-HH-1232 Black
+
+park KA-01-HH-1233 White
+
+park KA-01-HH-1234 Black
+
+park KA-01-HH-1235 White
+
+park KA-01-HH-1236 Black
+
+park KA-01-HH-1237 White
+
+park KA-01-HH-1238 Black
+
+status
+
+leave 4
+
+status
+
+registration_numbers_for_cars_with_colour White
+
+slot_numbers_for_cars_with_colour White
+
+slot_number_for_registration_number KA-01-HH-3141
+
+slot_number_for_registration_number KA-01-HH-1233
+
+exit

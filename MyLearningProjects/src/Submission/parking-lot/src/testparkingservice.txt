@@ -1,0 +1,67 @@
+There are two ways to execute the program:
+
+1. Put the input into the file_input.txt
+
+Execution:
+
+Go to the src folder (where makefile resides: /parking-lot/src$)
+
+Give the below command:
+
+    make runService
+
+It gives below output on console:
+
+    Initializing Command processor...
+
+    Initialized
+
+    Please enter commands to be executed
+
+      file => To execute the commands from file_input.txt
+
+      commands list from sample file => To perform different operations
+
+      exit => To exit the console
+
+
+Give command
+
+    file -----------------[press enter]
+
+It will execute the commands from the file line by line.
+
+
+2. Execute the individual commands
+
+
+
+Recognized Commands: [Can be referred from sample_commands.txt]
+
+create_parking_lot 6
+park KA-01-HH-1234 White
+leave 4
+status
+registration_numbers_for_cars_with_colour White
+slot_numbers_for_cars_with_colour White
+slot_number_for_registration_number KA-01-HH-3141
+
+
+Above commands can be executed as an individual entity.
+
+For e.g. 
+
+create_parking_lot 6
+
+
+The relevant output can be referred on console only. Moreover the status command will print the list of parking slots with necessary information.
+
+
+Extension:
+*********
+
+The implementation can be expanded further to create makefile and prepare recipes to test, extract the coverage and deduce the executables through go build.
+
+REST wrapper service can be implemented which can expose the endpoints to execute the commands. State can be maintained using the DB and shared with multiple successive requests.
+
+The current implementation has the provision to expand the solution to multiple vehicles. It is capable of managing multiple parking lots.
