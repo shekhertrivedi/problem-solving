@@ -1,10 +1,36 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	s := "ababbc"
 	fmt.Println(longestSubstring(s, 2))
+}
+
+func stringProcessing(s string) {
+
+	//print ascii for chars
+	fmt.Println(s[0])
+	fmt.Println(reflect.TypeOf(s[0]))
+
+	// print char of string
+	fmt.Println(string(s[1]))
+
+	// to chat array
+
+	arr := []rune(s)
+	fmt.Println(arr[0])
+	fmt.Println(string(arr[0]))
+
+	// making changes to the existing string
+	arr[0] = 'z'
+
+	//convert char array to string
+	newString := string(arr)
+	fmt.Println(newString)
 }
 
 func longestSubstring(s string, k int) int {
