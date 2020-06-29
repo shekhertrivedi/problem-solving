@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-06-28T15:33:40.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="gfg28yq6_KweXSgwh5hQ" version="13.1.1" type="github"><diagram id="u7pHZkqjTCUzdMjSWPb2" name="Page-1">7Vpdc5s4FP01nuk+uAMIsP1oO267249Jx7vT9FEGBdTKiMrCH/vrK4FkwMKxM7UN6W5eIh2ki3SOrqR7cQ9Ml9u3DKbxRxoi0nOscNsDdz3HsQf2UPyTyE4h3sgpkIjhUGElMMf/IgVaCs1wiFa1hpxSwnFaBwOaJCjgNQwyRjf1Zo+U1N+awggZwDyAxES/4JDHBTr0rBJ/h3AU6zfblnqyhLqxAlYxDOmmAoFZD0wZpbwoLbdTRCR7mpei35sjT/cDYyjh53T4NE7Wfyezz5+j4fz9X3gy+0Tsvj0ozKwhydSM1Wj5TlPAaJaESFqxemCyiTFH8xQG8ulGqC6wmC+JqNmiqMwhxtH26EDt/fTFwkF0iTjbiSbbuvRqyfR9Vd+U/PsDhcUV7l0tClSaR3vTJS2ioJh5DksGSTAM+ymjYRbw/gqxNRZ0tM2b59SJa+DNdhp4869Fm2PSRggNIEed584etE0eMMlbQ0zggqD+jwwmHPNdZ+lzhm3TNzA4QaHY2FWVMh7TiCaQzEp0UmetbPOB0lRx9Q1xvlOnFMw4rTOJtpg/VMpfpanXnqrdbZXlvLJTlWKccnBPcy/mQjMWoCfm7KrzEbII8VN+aWrJEIEcr+vjuLgww+4I4zytjOCf7R6qlYqeslp2y2stKnrEO2+j6Kg7ig5+G0VBm4q6xtkzvv9TAG/F0b2Bu9aPG2B17bT2u+MDnXcB70wXcNt0Ac9wgX+EB/hEDHiyYKIUydKrKcFy/o41L25if7TuG6OuuYZtUjnNVlxYZwZZIkZOZTFbknHAKROUSDKwiMc/wAUi93SFOaaJaLKgXNgQDYh8MIHB9yinekqJ7Cesgcf8r2JjTHAk+3J6wDvNOMEJmu6TCNZlxHBPiwFuqsXQ0EIv6kear+NSDP9HRvWD/irfg8aiAfDTbflQO8LeNTQwj2ma4iQSPaaQVTxEtxTjXxz2FlgxDA0fLA8hBK8Lt+KMfkda84QmcmN9xIQcQFApHwjhEGtYEkschvmu3OShdR++wLrY5zR0jgOYC8PzGlYGuNrKGDWsjLYTQcM6S15TRqOJJPdqGQ2reyy5fudYMvNlrbPkjzrHUkN67IysorkHnr+3MST2cZlBUrSnFCc8n5c36Xl30pa4ZBZ7/cWc+OAM9NwzLyTO1Yg3w5vjecnDG9+L18N1hqf1cG+qh3lBfEaq86Xx7w/s0/w3Hf3X498/vV2jJBzLr2nljSqEqzjfv+06+9+yZaoiVm9/QdOfzpxnRJImg9XLUQNBGjs7QFRvuJeqV28doCaQbQ0OmC8iXNWtJP+kpZF1YKgIgQ1DuYr7ef+CsGd83Dtf2JenpOu7r70LaWnaurmaTbHbf0hNf3Q5NU1bN1ezg/FW3+naHVmHu/8fTYVAtncxFzBt3doFgBkmHk0MvrRbnuFKrme4UtNvWK52yQNmtGmQ/NtkXzXpjrl/XSjSFNXyl1uFQ5Q/gAOznw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-29T12:53:15.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="LUBbiW-BZextXdtivu17" version="13.3.5" type="github">
+  <diagram id="u7pHZkqjTCUzdMjSWPb2" name="Page-1">
+    <mxGraphModel dx="2272" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-1" value="add-product-service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-2" value="allocate-product-service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-3" value="available-quantity-service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NAnvTnEQQg8SKJiBENl1-4" target="NAnvTnEQQg8SKJiBENl1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAnvTnEQQg8SKJiBENl1-4" target="NAnvTnEQQg8SKJiBENl1-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAnvTnEQQg8SKJiBENl1-4" target="NAnvTnEQQg8SKJiBENl1-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-4" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAnvTnEQQg8SKJiBENl1-5" target="NAnvTnEQQg8SKJiBENl1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-5" value="UI&lt;br&gt;(Client Service)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-15" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NAnvTnEQQg8SKJiBENl1-18" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;Shopping Cart Service&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="-30" width="550" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
