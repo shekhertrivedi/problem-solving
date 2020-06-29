@@ -1,0 +1,95 @@
+{
+    "version": 2,
+    "extra_config": {},
+    "timeout": "3000ms",
+    "cache_ttl": "300s",
+    "output_encoding": "json",
+    "name": "configuration",
+    "port": 8080,
+    "endpoints": [
+      {
+        "endpoint": "/addproduct/test",
+        "method": "GET",
+        "extra_config": {},
+        "output_encoding": "no-op",
+        "backend": [{
+          "host": [
+            "localhost:8000"
+          ],
+          "url_pattern": "/addproduct/test",
+          "encoding": "no-op"
+        }],
+        "concurrent_calls": 1
+      },
+      {
+        "endpoint": "/addproduct/products/{productId}/getproductdetails",
+        "method": "GET",
+        "extra_config": {},
+        "output_encoding": "json",
+        "backend": [{
+          "host": [
+            "localhost:8000"
+          ],
+          "url_pattern": "/addproduct/products/{productId}/getproductdetails",
+          "encoding": "json"
+        }],
+        "concurrent_calls": 1
+      },
+      {
+        "endpoint": "/addproduct/users/{userId}/products/{productId}/addtocart/{quantity}",
+        "method": "GET",
+        "extra_config": {},
+        "output_encoding": "json",
+        "backend": [{
+          "host": [
+            "localhost:8000"
+          ],
+          "url_pattern": "/addproduct/users/{userId}/products/{productId}/addtocart?quantity={quantity}",
+          "encoding": "json"
+        }],
+        "concurrent_calls": 1
+      },
+      {
+        "endpoint": "/addproduct/users/{userId}/products/{productId}/removefromcart/{quantity}",
+        "method": "GET",
+        "extra_config": {},
+        "output_encoding": "json",
+        "backend": [{
+          "host": [
+            "localhost:8000"
+          ],
+          "url_pattern": "/addproduct/users/{userId}/products/{productId}/removefromcart?quantity={quantity}",
+          "encoding": "json"
+        }],
+        "concurrent_calls": 1
+      },
+      {
+        "endpoint": "/addproduct/users/{userId}/getcart",
+        "method": "GET",
+        "extra_config": {},
+        "output_encoding": "json",
+        "backend": [{
+          "host": [
+            "localhost:8000"
+          ],
+          "url_pattern": "/addproduct/users/{userId}/getcart",
+          "encoding": "json"
+        }],
+        "concurrent_calls": 1
+      },
+      {
+        "endpoint": "/allocateproduct/allocatecart",
+        "method": "POST",
+        "extra_config": {},
+        "output_encoding": "json",
+        "backend": [{
+          "host": [
+            "localhost:8001"
+          ],
+          "url_pattern": "/allocateproduct/allocatecart",
+          "encoding": "json"
+        }],
+        "concurrent_calls": 1
+      }
+    ]
+  }
